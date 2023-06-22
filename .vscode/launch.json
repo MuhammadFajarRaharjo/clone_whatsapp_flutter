@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Xiaomi Redmi 9",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "e308ceb40503",
+            "noDebug": true
+        },
+        {
+            "name": "Emulator Pixel 3a API 27",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554",
+            "noDebug": true
+        },
+        {
+            "name": "whatsapp_flutter (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "whatsapp_flutter (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "Emulator Pixel 3a API 27",
+                "Xiaomi Redmi 9"
+            ]
+        }
+    ]
+}
